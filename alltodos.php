@@ -88,7 +88,7 @@ $result = $conn->query($sql);
                     echo "<td>" . $row["name"] . "</td>";
                     echo "<td>" . $row["content"] . "</td>";
                     echo "<td>" . $row["DateTime"] . "</td>";
-                    echo "<td> <a class='btn btn-sm btn-success' href='delete.php?id=" . base64_encode($row['id']) . "'>Done</a></td>";
+                    echo "<td> <a class='btn btn-sm btn-success' href='delete.php?id=" . base64_encode($row['id']) . "'>Done &#10003</a></td>";
                     echo "</tr>";
                 }
             } else {
